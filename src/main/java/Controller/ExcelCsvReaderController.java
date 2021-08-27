@@ -16,7 +16,7 @@ public class ExcelCsvReaderController {
 
 		final var dataStream = ClassLoader.getSystemResourceAsStream(cryptoCoinExcelFile);
 
-		if (dataStream == null) {
+		if (dataStream == null ) {
 			throw new IllegalStateException("File not found or is empty");
 		}
 

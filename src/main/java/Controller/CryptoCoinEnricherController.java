@@ -60,8 +60,10 @@ public class CryptoCoinEnricherController {
 			try {
 				customThreadPool.submit(() -> listOfCryptoCoinsFromInput.parallelStream().forEach(n->{ listOfEnrichedCryptoCoins.add(enrichCryptoCoinsByInput(n));})).get();
 			} catch (InterruptedException e) {
+				//log would go here
 				e.printStackTrace();
 			} catch (ExecutionException e) {
+				//log would go here
 				e.printStackTrace();
 			}
 

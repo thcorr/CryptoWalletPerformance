@@ -1,0 +1,16 @@
+Model\CryptoCoinAssetDTORawResponse.class
+Model\CryptoCoinAssetDTOResponse.class
+Model\CryptoCoinAssetPriceHistoryDTOResponse.class
+Exceptions\ApiInternalClientException.class
+Model\CryptoCoinExcelEntry.class
+Controller\CryptoCoinEnricherController.class
+Model\CryptoCoinAssetPriceHistoryDTORawResponse.class
+Exceptions\ApiServerException.class
+Model\CryptoCoinEnriched.class
+Service\FetchAssetPriceService.class
+Service\FetchAssetPriceService$1.class
+Controller\ExcelCsvReaderController.class
+Controller\OutputController.class
+Service\FetchAssetsService$1.class
+Application.class
+Service\FetchAssetsService.class

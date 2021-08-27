@@ -1,0 +1,4 @@
+Controller\CryptoCoinEnricherControllerTest.class
+Controller\ExcelCsvReaderControllerTest.class
+Service\FetchAssetPriceServiceTest.class
+Service\FetchAssetsServiceTest.class
